@@ -1,3 +1,4 @@
+
 import Avatar from './Avatar.jsx'
 import './App.css'
 
@@ -9,9 +10,8 @@ const people = [
     role: 'Design student',
   },
   {
-    name: 'Noah Williams',
-    image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=480&h=480&q=85',
+    name: 'MR. SAYINNI PRANEETH',
+    image: '/src/assets/image.png',
     role: 'Computer science student',
   },
 ]
@@ -20,9 +20,13 @@ function App() {
   return (
     <main className="page-shell">
       <header className="page-header">
-        <p className="eyebrow">React mini lab <span> / </span> Experiment 15</p>
+        <p className="eyebrow">
+          React mini lab <span> / </span> Experiment 15
+        </p>
         <h1>Profile Picture</h1>
-        <p className="intro">A simple profile gallery, built with reusable props.</p>
+        <p className="intro">
+          A simple profile gallery, built with reusable props.
+        </p>
       </header>
 
       <section className="profiles" aria-label="Student profiles">
@@ -35,7 +39,9 @@ function App() {
         ))}
       </section>
 
-      <footer className="page-footer">Functional components <span>·</span> Props <span>·</span> React</footer>
+      <footer className="page-footer">
+        Functional components <span>·</span> Props <span>·</span> React
+      </footer>
     </main>
   )
 }

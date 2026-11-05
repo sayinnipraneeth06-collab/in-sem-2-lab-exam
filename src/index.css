@@ -1,0 +1,36 @@
+:root {
+  font-family: 'Segoe UI', sans-serif;
+  color: #183c34;
+  background-color: #f3f7f3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  letter-spacing: 0;
+
+  background-image:
+    linear-gradient(rgba(39, 118, 93, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(39, 118, 93, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::selection {
+  color: #fff;
+  background: #27765d;
+}
